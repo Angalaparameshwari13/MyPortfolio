@@ -45,7 +45,7 @@ If you need to re-run the Python script to extract details from the PDF resume f
 
 1.  **Open your terminal** (e.g., PowerShell on Windows) inside this directory:
     ```powershell
-    cd "e:\angala\Embedded\Karthick\Portfolio\Angla"
+    cd "e:\angala\Embedded\Portfolio\Angla"
     ```
 2.  **Create a Virtual Environment** (if not already present):
     ```powershell
