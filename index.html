@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angalaparameshwari A | Embedded Software Developer | Portfolio</title>
+    
+    <!-- Meta Descriptions for SEO -->
+    <meta name="description" content="Portfolio of Angalaparameshwari A, an Embedded Software Developer specializing in microcontroller-based firmware, device drivers, and industrial wireless configurations.">
+    <meta name="keywords" content="Embedded Software Developer, Firmware Engineer, STM32, PIC, ESP32, C, Embedded C, Python, RF, I2C, SPI, UART, Angalaparameshwari">
+    <meta name="author" content="Angalaparameshwari A">
+    
+    <!-- Google Fonts: Montserrat (headings) & Plus Jakarta Sans (body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="loading">
+    <!-- Custom Loader -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">Embedded <span>Engineer</span></div>
+            <div class="loader-spinner"></div>
+            <p class="loader-text">SYS_BOOT: INITIALIZING...</p>
+            <div class="loader-progress-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll Progress Indicator -->
+    <div id="scroll-progress"></div>
+
+    <!-- Navbar -->
+    <header id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">
+                Embedded <span>Engineer</span>
+            </a>
+            
+            <nav class="nav-links">
+                <a href="#about" class="nav-item active"><i class="fa-solid fa-user-ninja"></i> About</a>
+                <a href="#skills" class="nav-item"><i class="fa-solid fa-microchip"></i> Skills</a>
+                <a href="#experience" class="nav-item"><i class="fa-solid fa-briefcase"></i> Experience</a>
+                <a href="#projects" class="nav-item"><i class="fa-solid fa-code-branch"></i> Projects</a>
+                <a href="#contact" class="nav-item"><i class="fa-solid fa-paper-plane"></i> Contact</a>
+            </nav>
+            
+            <div class="nav-actions">
+                <!-- Theme Switcher -->
+                <button id="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+                <button class="mobile-nav-toggle" aria-label="Toggle Navigation">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Dropdown Menu -->
+    <div class="mobile-menu">
+        <nav class="mobile-nav-links">
+            <a href="#about" class="mobile-nav-item"><i class="fa-solid fa-user-ninja"></i> About</a>
+            <a href="#skills" class="mobile-nav-item"><i class="fa-solid fa-microchip"></i> Skills</a>
+            <a href="#experience" class="mobile-nav-item"><i class="fa-solid fa-briefcase"></i> Experience</a>
+            <a href="#projects" class="mobile-nav-item"><i class="fa-solid fa-code-branch"></i> Projects</a>
+            <a href="#contact" class="mobile-nav-item"><i class="fa-solid fa-paper-plane"></i> Contact</a>
+        </nav>
+        <div class="mobile-menu-footer">
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        
+        <!-- Giant Gradient Header Banner (Anishka Style) -->
+        <section class="hero-banner" id="hero">
+            <div class="hero-banner-shape hero-banner-shape-1"></div>
+            <div class="hero-banner-shape hero-banner-shape-2"></div>
+            <div class="container">
+                <div class="hero-banner-content">
+                    <span class="banner-subtitle">Embedded Systems Engineer</span>
+                    <h1 class="banner-title">PORTFOLIO</h1>
+                    <span class="banner-author">Angalaparameshwari A.</span>
+                </div>
+            </div>
+            <div class="hero-banner-waves">
+                <!-- SVG wave curve divider -->
+                <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                    <path d="M0,32L120,42.7C240,53,480,75,720,74.7C960,75,1200,53,1320,42.7L1440,32L1440,120L1320,120C1200,120,960,120,720,120C480,120,240,120,120,120L0,120Z"></path>
+                </svg>
+            </div>
+        </section>
+
+        <!-- Overlapping Profile Deck -->
+        <div class="container">
+            <div class="profile-row">
+                <!-- Left Column -->
+                <div class="profile-left">
+                    <div class="avatar-wrapper">
+                        <!-- Technical icon placeholder since no image exists -->
+                        <i class="fa-solid fa-user-gear"></i>
+                    </div>
+                    <div class="tools-card card-panel">
+                        <h4>Tools & IDEs</h4>
+                        <div class="tools-grid">
+                            <div class="tool-badge"><i class="fa-solid fa-microchip"></i> STM32Cube</div>
+                            <div class="tool-badge"><i class="fa-solid fa-code"></i> Keil uVision5</div>
+                            <div class="tool-badge"><i class="fa-solid fa-toolbox"></i> MPLAB X</div>
+                            <div class="tool-badge"><i class="fa-solid fa-sitemap"></i> EA (VR-5)</div>
+                            <div class="tool-badge"><i class="fa-solid fa-network-wired"></i> Espressif</div>
+                            <div class="tool-badge"><i class="fa-brands fa-python"></i> Python</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right Column -->
+                <div class="profile-right">
+                    <div class="intro-card card-panel">
+                        <h2 class="intro-title">Hi! I'm Angalaparameshwari</h2>
+                        <h3 class="intro-subtitle">
+                            I develop <span class="typing-text" data-words='["Embedded Software", "Firmware Drivers", "Wireless IO Systems", "Robust Control Logic"]'></span>
+                        </h3>
+                        <p class="intro-text">
+                            Embedded Software Developer with 2+ years of experience designing energy-efficient firmware, low-level microcontroller drivers, and industrial wireless systems (RF, IR, Bluetooth). Let's power up your hardware.
+                        </p>
+                        
+                        <div class="intro-details-grid">
+                            <div class="intro-detail-item">
+                                <span class="detail-label">Specialization</span>
+                                <span class="detail-value">Microcontrollers & Protocols</span>
+                            </div>
+                            <div class="intro-detail-item">
+                                <span class="detail-label">Experience</span>
+                                <span class="detail-value">2+ Years (Innospace / Test Base)</span>
+                            </div>
+                            <div class="intro-detail-item">
+                                <span class="detail-label">Core Languages</span>
+                                <span class="detail-value">C, Embedded C, Python</span>
+                            </div>
+                            <div class="intro-detail-item">
+                                <span class="detail-label">Academic Degree</span>
+                                <span class="detail-value">B.E. - ECE (84% score)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section content deck -->
+        <div class="container">
+            
+            <!-- About Section Card -->
+            <section id="about" class="section-padding">
+                <div class="section-card card-panel reveal-up">
+                    <div class="section-header-block">
+                        <span class="subtitle-tag">// Biography</span>
+                        <h2 class="section-title">Professional Summary</h2>
+                    </div>
+                    
+                    <p class="intro-text">
+                        I am a professional Embedded Software Developer with hands-on experience in microcontroller-based embedded systems. I hold strong expertise in low-level programming, device driver design, communication protocol implementation, and hardware debugging.
+                    </p>
+                    <p class="intro-text">
+                        Over the course of my career, I have designed industrial remote control devices, custom boards bring-ups, calibration diagnostics, and Windows PyQt config utilities. I am passionate about crafting reliable, secure, and energy-efficient embedded programs.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Skills Section Card -->
+            <section id="skills" class="section-padding">
+                <div class="section-card card-panel reveal-up">
+                    <div class="section-header-block">
+                        <span class="subtitle-tag">// Competencies</span>
+                        <h2 class="section-title">Technical Skills</h2>
+                    </div>
+                    
+                    <div class="skills-grid-layout">
+                        <!-- Column 1 -->
+                        <div class="skill-category-block">
+                            <h4>Languages & Architectures</h4>
+                            <div class="skills-list">
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span class="skill-name">Embedded C / C</span>
+                                        <span class="skill-percent">95%</span>
+                                    </div>
+                                    <div class="skill-bar-bg">
+                                        <div class="skill-bar-fill" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span class="skill-name">Python Scripting & GUI</span>
+                                        <span class="skill-percent">85%</span>
+                                    </div>
+                                    <div class="skill-bar-bg">
+                                        <div class="skill-bar-fill" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span class="skill-name">STM32 & PIC Microchips</span>
+                                        <span class="skill-percent">90%</span>
+                                    </div>
+                                    <div class="skill-bar-bg">
+                                        <div class="skill-bar-fill" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Column 2 -->
+                        <div class="skill-category-block">
+                            <h4>Protocols & Methodologies</h4>
+                            <div class="skills-list">
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span class="skill-name">UART, SPI, I2C, CAN</span>
+                                        <span class="skill-percent">95%</span>
+                                    </div>
+                                    <div class="skill-bar-bg">
+                                        <div class="skill-bar-fill" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span class="skill-name">Wireless (RF, IR, Bluetooth BLE)</span>
+                                        <span class="skill-percent">90%</span>
+                                    </div>
+                                    <div class="skill-bar-bg">
+                                        <div class="skill-bar-fill" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span class="skill-name">ASPICE Design & UDS</span>
+                                        <span class="skill-percent">78%</span>
+                                    </div>
+                                    <div class="skill-bar-bg">
+                                        <div class="skill-bar-fill" style="width: 78%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience Timeline Section Card -->
+            <section id="experience" class="section-padding">
+                <div class="section-card card-panel reveal-up">
+                    <div class="section-header-block">
+                        <span class="subtitle-tag">// History</span>
+                        <h2 class="section-title">Work Experience</h2>
+                    </div>
+                    
+                    <div class="timeline-layout">
+                        <!-- Timeline Item 1 -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-item-header">
+                                <span class="timeline-duration">Aug 2024 – Dec 2025</span>
+                                <h3 class="timeline-job-title">Embedded Software Developer</h3>
+                                <h4 class="timeline-job-company"><i class="fa-solid fa-building"></i> Innospace Automation Services Pvt. Ltd., Chennai</h4>
+                            </div>
+                            <ul class="timeline-details">
+                                <li>Developed robust embedded firmware for industrial remote-control crane units using combined <strong>RF, IR, and Bluetooth</strong> protocols.</li>
+                                <li>Designed and coded modular device drivers for peripherals (ADC, GPIOs, SPI/I2C communication channels) and ran comprehensive unit-level testing.</li>
+                                <li>Created custom <strong>Python desktop configurator tools</strong> utilizing <strong>PyQt & Tkinter</strong> for reading and flashing system configurations via Serial communication.</li>
+                                <li>Implemented cryptographic import/export mechanisms in configuration utilities to protect sensitive industrial parameter sets.</li>
+                                <li>Performed raw board bring-ups, oscilloscopes/logic analyzer testing, hardware debugging, and prepared technical calibration checklists.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Timeline Item 2 -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-item-header">
+                                <span class="timeline-duration">Jul 2023 – Apr 2024</span>
+                                <h3 class="timeline-job-title">Software Developer Trainee</h3>
+                                <h4 class="timeline-job-company"><i class="fa-solid fa-building"></i> Test Base Solutions Engineering Pvt. Ltd., Bangalore</h4>
+                            </div>
+                            <ul class="timeline-details">
+                                <li>Modeled complex embedded design flows and program states using <strong>Enterprise Architect (SWE.3)</strong> matching <strong>ASPICE</strong> compliance.</li>
+                                <li>Successfully integrated microcontroller protocols like <strong>UART, SPI, and I2C</strong> to interface with outer peripherals.</li>
+                                <li>Wrote tests and driver handlers for ADC, DAC, and PWM signals on classic 8051 and PIC platforms.</li>
+                                <li>Generated <strong>UDS diagnostic frames</strong>, analyzed CAN traffic, and checked operational parameters using specialized GUI interface nodes.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Grid Section Card -->
+            <section id="projects" class="section-padding">
+                <div class="section-card card-panel reveal-up">
+                    <div class="section-header-block">
+                        <span class="subtitle-tag">// Works Showcase</span>
+                        <h2 class="section-title">My Works</h2>
+                    </div>
+                    
+                    <div class="projects-grid">
+                        <!-- Project 1 -->
+                        <div class="project-card card-panel">
+                            <div class="project-cover">
+                                <div class="project-cover-shape project-cover-shape-1"></div>
+                                <div class="project-cover-shape project-cover-shape-2"></div>
+                                <i class="fa-solid fa-tower-broadcast project-cover-icon"></i>
+                                <span class="project-card-tag">Industrial Wireless</span>
+                            </div>
+                            <div class="project-info">
+                                <h3>Wireless IO System</h3>
+                                <p class="project-desc">
+                                    An industrial system built to monitor and remotely control digital & analog inputs/outputs. Utilizes encrypted wireless communication and allows Bluetooth configuration tuning.
+                                </p>
+                                <div class="project-tech">
+                                    <span>PIC24F</span>
+                                    <span>RF Transceiver</span>
+                                    <span>AES-128</span>
+                                </div>
+                                <button class="btn btn-primary btn-sm open-project-modal" data-project="wireless-io">
+                                    Specs Details
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Project 2 -->
+                        <div class="project-card card-panel">
+                            <div class="project-cover">
+                                <div class="project-cover-shape project-cover-shape-1"></div>
+                                <div class="project-cover-shape project-cover-shape-2"></div>
+                                <i class="fa-solid fa-gamepad project-cover-icon"></i>
+                                <span class="project-card-tag">Crane Automation</span>
+                            </div>
+                            <div class="project-info">
+                                <h3>Dual-Mode Remote Control</h3>
+                                <p class="project-desc">
+                                    Dual-communication system for heavy industrial cranes. Offers smooth switching between short-range IR and long-range RF with integrated sleep/power optimizations.
+                                </p>
+                                <div class="project-tech">
+                                    <span>STM32</span>
+                                    <span>RF Tranceiver</span>
+                                    <span>Low Power</span>
+                                </div>
+                                <button class="btn btn-primary btn-sm open-project-modal" data-project="crane-control">
+                                    Specs Details
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Project 3 -->
+                        <div class="project-card card-panel">
+                            <div class="project-cover">
+                                <div class="project-cover-shape project-cover-shape-1"></div>
+                                <div class="project-cover-shape project-cover-shape-2"></div>
+                                <i class="fa-solid fa-temperature-half project-cover-icon"></i>
+                                <span class="project-card-tag">Logging System</span>
+                            </div>
+                            <div class="project-info">
+                                <h3>Temp Sensor & Log System</h3>
+                                <p class="project-desc">
+                                    Real-time temperature measurement system utilizing a PIC microchip, LM35 sensor, LCD output, and built-in simulation mode. Features EEPROM data logging.
+                                </p>
+                                <div class="project-tech">
+                                    <span>PIC16F / 8051</span>
+                                    <span>LM35</span>
+                                    <span>EEPROM I2C</span>
+                                </div>
+                                <button class="btn btn-primary btn-sm open-project-modal" data-project="temp-sensor">
+                                    Specs Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section Card -->
+            <section id="contact" class="section-padding">
+                <div class="section-card card-panel reveal-up">
+                    <div class="section-header-block">
+                        <span class="subtitle-tag">// Communications</span>
+                        <h2 class="section-title">Get In Touch</h2>
+                    </div>
+                    
+                    <div class="contact-grid">
+                        <!-- Left Column: Details -->
+                        <div class="contact-info-panel">
+                            <div class="contact-card-sub card-panel">
+                                <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div>
+                                    <h5>Email Address</h5>
+                                    <p><a href="mailto:angalaparameshwaria@gmail.com">angalaparameshwaria@gmail.com</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-card-sub card-panel">
+                                <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                                <div>
+                                    <h5>Phone / Call</h5>
+                                    <p><a href="tel:+919150109792">+91 91501 09792</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-card-sub card-panel">
+                                <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                                <div>
+                                    <h5>LinkedIn Profile</h5>
+                                    <p><a href="https://linkedin.com/in/angalaparameshwari" target="_blank">linkedin.com/in/angalaparameshwari</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-card-sub card-panel">
+                                <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div>
+                                    <h5>Location</h5>
+                                    <p>Trichy</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Right Column: Form -->
+                        <div class="contact-form-panel card-panel">
+                            <form id="contact-form" action="#" method="POST">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="name">Your Name</label>
+                                        <input type="text" id="name" name="name" required placeholder="Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email Address</label>
+                                        <input type="email" id="email" name="email" required placeholder="name@example.com">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" id="subject" name="subject" required placeholder="Job opportunity / Project consultation">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" rows="4" required placeholder="Write message..."></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-full">
+                                    <span>Transmit Message</span>
+                                    <i class="fa-solid fa-paper-plane"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <p class="copyright">&copy; 2026 Angalaparameshwari A. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://linkedin.com/in/angalaparameshwari" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:angalaparameshwaria@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Actions -->
+    <button id="scroll-to-top" aria-label="Scroll to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <!-- Project Modals -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content card-panel">
+            <button class="close-modal">&times;</button>
+            <div id="modal-project-details">
+                <!-- Loaded dynamically by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>

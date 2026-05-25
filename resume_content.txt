@@ -1,0 +1,72 @@
+ANGALAPARAMESHWARI A
+EMBEDDED SOFTWARE DEVELOPER
+Phone: +91 9150109792 Email: angalaparameshwaria@gmail.com
+LinkedIn: linkedin.com/in/angalaparameshwari
+Professional Summary
+Embedded Software Developer with 2 years of hands-on experience in microcontroller-based embedded
+systems. Strong expertise in low-level programming, device driver development, communication protocol
+implementation, and system debugging. Experienced in developing industrial wireless products using
+RF, IR, and Bluetooth technologies. Passionate about building reliable, scalable, and energy-efficient
+embedded solutions.
+Education
+Bachelor of Engineering – Electronics and Communication Engineering2019 – 2023
+M.A.M College of Engineering and Technology
+Percentage: 84%
+HSC 2019
+Government Girls Higher Secondary School
+Percentage: 78%
+SSLC 2017
+Government High School
+Percentage: 96.6%
+Technical Skills
+•Programming Languages:C, Embedded C, Python
+•Microcontrollers:8051 (AT89C51), PIC24FJ64GP205, STM32F446RE, ESP32
+•Communication Protocols:UART, SPI, I2C, CAN
+•IDEs:MPLAB X IDE, Keil uVision5, STM32Cube IDE, Espressif-IDE
+•Tools:Enterprise Architecture (VR-5.0).
+Experience
+Embedded Software Developer
+Innospace Automation Services Pvt. Ltd., ChennaiAug 2024 – Dec 2025
+•Developed embedded firmware for industrial remote-control systems using RF, IR, and Bluetooth
+communication protocols.
+•Designed and developed device drivers and modular software components; performed unit-level testing
+and validation.
+•Developed Windows-based Python desktop applications using PyQt and Tkinter for device configura-
+tion via serial communication.
+•Implemented encrypted import and export of configuration files in the desktop application.
+•Performed initial board bring-up, power-on testing, and complete hardware validation.
+•Built Bluetooth-based wireless configuration systems enabling real-time parameter tuning.
+•Debugged firmware and hardware issues using logic analyzers and oscilloscopes.
+•Prepared technical documentation for firmware design, configuration workflow, and production sup-
+port.
+Software Developer Trainee
+Test Base Solutions Engineering Pvt. Ltd., BangaloreJul 2023 – Apr 2024
+•Performed detailed embedded software design using Enterprise Architect in compliance with ASPICE
+(SWE.3).
+•Worked extensively with UART, SPI, and I2C communication protocols.
+•Interfaced and tested peripherals including ADC, DAC, and PWM modules.
+•Developed embedded applications using 8051 and PIC microcontroller platforms.
+•Implemented UDS diagnostic frames and transmitted diagnostic data using GUI-based tools.
+Projects
+Wireless IO System
+•Designed and developed an industrial wireless IO system to monitor and control digital and analog
+inputs and outputs.
+•Implemented encrypted wireless data transmission to ensure secure and reliable communication.
+•Implemented one-way and two-way wireless data transfer and configured the product via serial and
+Bluetooth interfaces.
+•Designed the system to operate reliably in noisy and harsh industrial environments.
+•Improved system robustness through error handling and communication retries.
+Dual-Mode Wireless IR & RF Remote Control System
+•Designed and developed a wireless remote-control system for industrial crane operations using IR and
+RF protocols.
+•Enabled mode switching between IR (short-range, line-of-sight) and RF (long-range, non-line-of-sight)
+through a display interface.
+•Integrated a menu-driven UI for communication selection and sleep configuration.
+•Implemented power optimization techniques to improve battery life.
+•Enhanced system reliability and operational flexibility in industrial environments.
+Temperature Sensor Monitoring and Simulation System with Data Logging
+•Designed and developed a temperature monitoring system using the PIC microcontroller and LM35
+sensor.
+•Implemented real-time temperature acquisition and display on an LCD.
+•Added a simulation mode to generate test temperature data for validation.
+•Integrated EEPROM-based data logging for long-term storage and analysis.
